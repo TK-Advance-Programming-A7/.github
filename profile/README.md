@@ -62,6 +62,14 @@ Dalam skenario di mana proyek Buku.ID sangat sukses, beberapa risiko arsitektur 
 	Dampak: Data tidak konsisten bisa menyebabkan kesalahan informasi.  
 	Mitigasi: Gunakan mekanisme transaksi yang kuat, sinkronkan data secara real-time, dan audit data secara berkala.  
 
+## Teknik Risk Storming
+Teknik Risk Storming digunakan untuk mengidentifikasi dan mengatasi risiko dengan langkah-langkah berikut:
+Identifikasi Risiko: Mengumpulkan semua potensi risiko yang mungkin terjadi.  
+Analisis Risiko: Menilai setiap risiko berdasarkan kemungkinan dan dampaknya.  
+Strategi Mitigasi: Mengembangkan langkah-langkah konkret untuk mengurangi atau menghilangkan risiko.  
+Pelaksanaan dan Pemantauan: Mengimplementasikan strategi mitigasi dan memantau efektivitasnya secara berkala.
+
+Menggunakan teknik Risk Storming membantu kita secara sistematis mengidentifikasi, menganalisis, dan mengatasi risiko arsitektur yang mungkin muncul seiring dengan kesuksesan proyek. Teknik ini memastikan bahwa setiap risiko dievaluasi dengan baik dan solusi mitigasi diterapkan untuk menjaga kinerja, keamanan, keandalan, dan konsistensi data sistem.
 
 
 
