@@ -33,5 +33,36 @@
 ### Deploy Diagram
 <a href="https://ibb.co.com/Zc6MvPx"><img src="https://i.ibb.co.com/F8bDcMz/Class-Diagram-Adpro-a7-drawio-2.png" alt="Class-Diagram-Adpro-a7-drawio-2" border="0"></a>
 
+## Architectual Risk
+Dalam skenario di mana proyek Buku.ID sangat sukses, beberapa risiko arsitektur perlu dipertimbangkan untuk memastikan sistem tetap handal, aman, dan mampu menangani beban yang meningkat.
+
+### Risk Storming Buku.ID 
+
+1. Risiko Skalabilitas
+
+	Deskripsi: Sistem mungkin melambat atau tidak bisa menangani banyak pengguna.  
+	Dampak: Akses lambat dan potensi downtime.  
+	Mitigasi: Gunakan load balancing, optimalkan kode, dan tingkatkan kapasitas server.  
+
+2. Risiko Keamanan
+
+	Deskripsi: Sistem bisa menjadi target serangan siber karena menyimpan data sensitif.  
+	Dampak: Kebocoran data dan hilangnya kepercayaan pelanggan.  
+	Mitigasi: Enkripsi data, lakukan audit keamanan, dan gunakan autentikasi multi-faktor.  
+
+3. Risiko Keandalan Sistem
+
+	Deskripsi: Sistem harus tetap berfungsi meski pengguna bertambah banyak.  
+	Dampak: Layanan terganggu dan penjualan berkurang.  
+	Mitigasi: Buat sistem cadangan, pantau sistem secara real-time, dan lakukan backup data.  
+
+4. Risiko Konsistensi Data
+
+	Deskripsi: Data antara sistem Internet dan Mainframe harus selalu sinkron.  
+	Dampak: Data tidak konsisten bisa menyebabkan kesalahan informasi.  
+	Mitigasi: Gunakan mekanisme transaksi yang kuat, sinkronkan data secara real-time, dan audit data secara berkala.  
+
+
+
 
 
